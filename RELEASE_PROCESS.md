@@ -119,7 +119,7 @@ An example of doing this is:
 - this [commit from the 2.3.0 release](https://github.com/dalelane/spec/commit/8c521539cd875470ea8e89cf3ab7ffd81be64788)
 - this [pull request from the 2.3.0 release](https://github.com/asyncapi/spec/pull/676)
 
-#### Step 4.2 - Update version number in the spec and add new reference
+#### Step 4.2 - Update version number in the spec and add new reference to the latest spec version
 Repository: [spec](https://github.com/asyncapi/spec)
 
 References to the latest version in `spec/asyncapi.md` should be updated to the new version number.
