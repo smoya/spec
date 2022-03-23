@@ -23,7 +23,7 @@ Each release can have a different release coordinator. If you are interested and
 
 Many of the steps needed to release a new version of the AsyncAPI specification (e.g. merging, creating branches, creating releases) need support from administrators for individual github.com/asyncapi repositories.
 
-Each respository contains a `CODEOWNERS` file (e.g. https://github.com/asyncapi/parser-js/blob/master/CODEOWNERS) that identifies the people who can help.
+Each repository contains a `CODEOWNERS` file (e.g. https://github.com/asyncapi/parser-js/blob/master/CODEOWNERS) that identifies the people who can help.
 
 ---
 ## When?
@@ -119,7 +119,7 @@ An example of doing this is:
 - this [commit from the 2.3.0 release](https://github.com/dalelane/spec/commit/8c521539cd875470ea8e89cf3ab7ffd81be64788)
 - this [pull request from the 2.3.0 release](https://github.com/asyncapi/spec/pull/676)
 
-#### Step 4.2 - Update version number in the spec
+#### Step 4.2 - Update version number in the spec and add new reference
 Repository: [spec](https://github.com/asyncapi/spec)
 
 References to the latest version in `spec/asyncapi.md` should be updated to the new version number.
@@ -127,6 +127,10 @@ References to the latest version in `spec/asyncapi.md` should be updated to the 
 Examples of doing this are:
 - this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/commit/1f29d803ca801756d4ea3f676bcf7e7751478de6)
 - this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/commit/7f827a880fa3ddcbc9a39d50e41502bc450443bc)
+
+Additionally, the new release should be listed in the [README.md](README.md) file and marked as `(latest)`.
+An examples of doing this is:
+- this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/pull/710/commits/22ba6c433ddbeeeda38f5aed55708826da62cf70)
 
 
 #### Step 4.3 - Create a new JSON schema file for the new version
