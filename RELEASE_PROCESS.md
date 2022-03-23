@@ -119,7 +119,7 @@ An example of doing this is:
 - this [commit from the 2.3.0 release](https://github.com/dalelane/spec/commit/8c521539cd875470ea8e89cf3ab7ffd81be64788)
 - this [pull request from the 2.3.0 release](https://github.com/asyncapi/spec/pull/676)
 
-#### Step 4.2 - Update version number in the spec and add new reference to the latest spec version
+#### Step 4.2 - Update version number in the spec
 Repository: [spec](https://github.com/asyncapi/spec)
 
 References to the latest version in `spec/asyncapi.md` should be updated to the new version number.
@@ -128,12 +128,12 @@ Examples of doing this are:
 - this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/commit/1f29d803ca801756d4ea3f676bcf7e7751478de6)
 - this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/commit/7f827a880fa3ddcbc9a39d50e41502bc450443bc)
 
+#### Step 4.3 - Add new reference to the latest spec version in README
 Additionally, the new release should be listed in the [README.md](README.md) file and marked as `(latest)`.
 An examples of doing this is:
 - this [commit from the 2.3.0 release](https://github.com/asyncapi/spec/pull/710/commits/22ba6c433ddbeeeda38f5aed55708826da62cf70)
 
-
-#### Step 4.3 - Create a new JSON schema file for the new version
+#### Step 4.4 - Create a new JSON schema file for the new version
 Repository: [spec-json-schemas](https://github.com/asyncapi/spec-json-schemas)
 
 The new file should be created in the `schemas/` folder in the [spec-json-schemas](https://github.com/asyncapi/spec-json-schemas) repository.
@@ -144,7 +144,7 @@ An example of doing this is:
 - this [commit from the 2.3.0 release](https://github.com/dalelane/spec-json-schemas/commit/9cff7798ac42f609927e1cb9e532ff16d360ab99)
 - this [pull request from the 2.3.0 release](https://github.com/asyncapi/spec-json-schemas/pull/139)
 
-#### Step 4.4 - Update the list of AsyncAPI schema MIME types with the new version
+#### Step 4.5 - Update the list of AsyncAPI schema MIME types with the new version
 Repository: [parser-js](https://github.com/asyncapi/parser-js)
 
 The file to be updated is `lib/asyncapiSchemaFormatParser.js` in the [parser-js](https://github.com/asyncapi/parser-js) repository.
